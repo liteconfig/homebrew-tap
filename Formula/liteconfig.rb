@@ -17,22 +17,22 @@ class Liteconfig < Formula
   on_macos do
     on_arm do
       url "https://github.com/liteconfig/liteconfig/releases/download/v#{version}/liteconfig-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "aafe7cc761fde1180a09a73522941a80a9f7ca1cb901fc258df87de7966403b4"
+      sha256 "5846a9642ae393b83a258ee5176da7e5afc1015ffe6fd5a1ce7ba22221dd3e3f"
     end
     on_intel do
       url "https://github.com/liteconfig/liteconfig/releases/download/v#{version}/liteconfig-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "ef02ce39ba1f38c5c6a74986c4a2528e06e93a9b7ee98c6ddc1be1f919e79391"
+      sha256 "4c38e64a9cf39cccab78248c0f1f02faece236b6c04435c1f6aeb4e1d74d708d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/liteconfig/liteconfig/releases/download/v#{version}/liteconfig-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f3d3fba3c5e9a026d4b9d5e81e9a27a286d378c19b54d0173d83318fd69b137d"
+      sha256 "4cde6be8fd25eb6f000d97e31fab2c1b085f6bf7f9280c9aece269b06c93897b"
     end
     on_intel do
       url "https://github.com/liteconfig/liteconfig/releases/download/v#{version}/liteconfig-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "12dac8c633f7746a994ec05df65ba8003c1867e55aa235eefdb2198de8b33d8f"
+      sha256 "70dd33247bf57fc5cb8d764565d6b8e5772709d489746d554a2737ebccebbcf4"
     end
   end
 
